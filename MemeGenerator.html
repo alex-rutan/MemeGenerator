@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MemeGenerator.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="title">Meme Generator</h1>
+        <form action="#" id="memeForm">
+            <div>
+                <label for="image">Image URL</label>
+                <input type="text" name="image" id="imgURL" autofocus required>    
+            </div>
+            <div>
+                <label for="topText">Top Text</label>
+                <input type="text" name="topText" id="topTextInput">
+            </div>
+            <div>
+                <label for="bottomText">Bottom Text</label>
+                <input type="text" name="bottomText" id="bottomTextInput">
+            </div> 
+            <div id="createMeme">
+                <input type="submit" value="Create Meme" id="button">
+            </div>
+        </form>
+    </div>
+    <div class="meme-container">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

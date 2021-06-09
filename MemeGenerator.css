@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.form-container {
+    padding-top: 15px;
+    background-color: rgba(201, 223, 243, 0.404);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.295);
+}
+.title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    margin: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    display: inline-block;
+    width: 130px;
+    margin: 10px;
+}
+input {
+    margin: 15px;
+    padding: 5px;
+    width: 800px;
+}
+#createMeme {
+    margin-bottom: 10px;
+}
+#button {
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    cursor: pointer;
+}
+#button:hover {
+    background-color:white;
+    color: black; 
+}
+.meme-container {
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 44px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: -2px 2px 0 #000,
+                2px 2px 0 #000,
+                2px -2px 0 #000,
+                -2px -2px 0 #000;
+}
+.meme {
+    position: relative;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.image {
+    margin: 50px;
+    width: 500px;
+    border-radius: 20px;
+}
+.topText {
+    position: absolute;
+    top: 60px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 450px;
+    text-align: center;
+}
+.bottomText {
+    position: absolute;
+    bottom: 65px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 450px;
+    text-align: center;
+}
+.deleteButton {
+    position: absolute;
+    bottom: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    cursor: pointer;
+}
+.deleteButton:hover {
+    background-color:white;
+    color: black; 
+}
